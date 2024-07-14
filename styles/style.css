@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+/* ------common styles------ */
+.common-p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.common-h3{
+  font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn {
+  width: 177px;
+  height: 64px;
+  border: none;
+  padding: 20px 43px 20px 43px;
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* ------hero section---- */
+.hero {
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 850px;
+  background-color: #fceef1;
+  display: flex;
+}
+.hero-text {
+  width: 50%;
+}
+.hero-text h1 {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 96px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 197px 97px 32px 240px;
+}
+.hero-text p {
+  padding: 0px 171px 32px 240px;
+  text-align: left;
+}
+.hero-btn {
+  margin-left: 240px;
+}
+.hero-img {
+  width: 50%;
+  padding-top: 50px;
+}
+
+.hero-img img {
+  border: 1px dashed rgb(163, 153, 153);
+  height: 100%;
+}
+
+/* ------featured section----- */
+
+.featured {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 160px;
+}
+.featured-text {
+  width: 594px;
+  height: 132px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.featured-text h1 {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.featured-content {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.featured-img {
+  width: 464px;
+  height: 605px;
+  border: 1px dashed rgb(163, 153, 153);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.featured-img p {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.featured-content-img {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+
+  background: rgba(167, 33, 98, 0.15);
+}
+.featured-background-color-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.featured-background-color-2 {
+  background: rgba(5, 151, 160, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.featured-background-color-3 {
+  background: rgba(71, 125, 17, 0.15);
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.featured-img-1 {
+  width: 310px;
+  height: 428px;
+  border: 1px dashed rgb(163, 153, 153);
+}
+.featured-img-2 {
+  width: 350px;
+  height: 350px;
+  border: 1px dashed rgb(163, 153, 153);
+}
+.featured-img-3 {
+  width: 314px;
+  height: 471px;
+  border: 1px dashed rgb(163, 153, 153);
+}
+.featured-content-img img {
+  width: 100%;
+  height: 100%;
+  /* padding: 110px 78px 0 76px; */
+}
+
+/* ------delivery section---- */
+
+.delivery{
+  max-width: 1440px;
+  height: 320px;
+  margin: 0 auto;
+  margin-top: 128px;
+  margin-bottom: 128px;
+  border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.delivery-container-text p{
+  color: rgba(39, 39, 39, 0.8);
+font-family: "Lato";
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+}
+.delivery-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.delivery-container-img img{
+  margin-bottom: 26px;
+}
+
+/* ----------hot deals---------- */
+.hot-deals{
+  max-width: 1922px;
+height: 620px;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+display: flex;
+margin-bottom: 128px;
+}
+.hot-deals-text{
+  width: 50%;
+  padding: 230px 0px 162px 392px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.hot-deals-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 186px;
+}
+.hot-deals-img img{
+  border: 1px dashed rgb(163, 153, 153);
+}
+/* ------responsive---- */
+
+@media screen and (max-width: 576px) {
+  
+}
+
+@media screen and (max-width:576px){
+  /* --------hero section-------- */
+  .hero {
+    flex-direction: column;
+    height: 1390px; /* Ensure this height makes sense for small screens */
+  }
+
+  .hero-text h1 {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .hero-text p {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-btn {
+    margin-left: 190px; /* Consider centering instead of fixed margin for better responsiveness */
+  }
+
+  .hero-img {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .hero-img img {
+    width: 100%;
+  }
+
+  /* ---------featured section-------- */
+
+  .featured-text {
+    width: 100%; /* Adjusted to 100% for better responsiveness */
+    height: auto; /* Allow height to adjust automatically */
+  }
+
+  .featured-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .featured-img {
+    padding: 70px; /* Ensure this padding makes sense for small screens */
+  }
+
+  .featured-content-img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  /* ------delivery section------- */
+  .delivery {
+    padding: 100px 0;
+    justify-content: space-between;
+  }
+
+  .delivery-container {
+    height: 100%;
+    width: 100%;
+  }
+
+  .delivery-container-text p {
+    font-size: 16px;
+  }
+
+  /* ----------hot deals------------ */
+  .hot-deals{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+    border: 1px solid red;
+  }
+  .hot-deals-text{
+    padding: 10px;
+    width: 100%;
+    height: 40%;
+    justify-content: space-between;
+  }
+
+  .hot-deals-img{
+    height: 40%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .hot-deals-img{
+    height: 100%;
+  }
+}
